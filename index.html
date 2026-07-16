@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensaje especial 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div id="pregunta">
+    <h1>¿Qué emoji nos identifica?</h1>
+
+    <input id="emojiInput" type="text" placeholder="Escribe el emoji">
+    <button onclick="verificarEmoji()">Entrar</button>
+
+    <p id="error"></p>
+  </div>
+
+
+  <div id="mensaje" class="oculto">
+
+    <h1 class="titulo">Mensaje especial 💌</h1>
+
+    <p id="textoEscrito"></p>
+
+    <button onclick="abrirCarta()">Abrir carta 💌</button>
+
+  </div>
+
+
+  <div id="carta" class="oculto carta">
+
+    <h2>Hola mi lindo 😘😘</h2>
+
+    <p>
+      Quiero que sepas que guardo cada momento,
+      cada recuerdo y cada detalle que vivimos.
+      Gracias por estos meses y por todos los momentos
+      que quedarán siempre en mi corazón.
+    </p>
+
+    <p>
+      Cada foto, cada video y cada detalle
+      tienen un significado especial para mí.
+    </p>
+
+
+    <div class="memoria">
+
+      <h3>Recuerdos ❤️</h3>
+
+      <div class="espacio">
+        Aquí irán tus fotos y videos
+      </div>
+
+    </div>
+
+
+    <div class="final">
+
+      <h3>Despedida ❤️</h3>
+
+      <p>
+      Gracias por todo lo bonito que vivimos.
+      Siempre recordaré cada momento.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
